@@ -39,6 +39,8 @@ li {
 .site-link {
     text-decoration: none;
     color: #333;
+    border-bottom: 1px solid #ff9934;
+    padding-bottom: 2px;
 }
 
 .site-link:hover {
@@ -84,11 +86,21 @@ h2 {
     color: #ff9934;
 }
 
+.download {
+    padding-bottom: 20px;
+}
+
 @media only screen and (min-width: 481px) {
     main {
         width: 450px;
         margin: 20px auto;
         padding: 0;
+    }
+
+    .nav-container {
+        width: 450px;
+        text-align: right;
+        margin: 0 auto;
     }
 }
 
