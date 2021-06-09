@@ -16,7 +16,7 @@ body {
 
 main {
     padding: 0 5%;
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 50px);
     margin-top: 20px;
 }
@@ -89,5 +89,25 @@ h2 {
         width: 450px;
         margin: 20px auto;
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .dev-skills {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-skills > h2 {
+        width: 115px;
+    }
+
+    .practiced-skills > h2 {
+        width: 170px;
+    }
+
+    .main-skills,
+    .practiced-skills {
+        margin-bottom: 20px;
     }
 }
